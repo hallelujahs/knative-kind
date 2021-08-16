@@ -15,7 +15,7 @@ spec:
         autoscaling.knative.dev/window: 10s
     spec:
       containers:
-        - image: gcr.io/knative-samples/helloworld-go
+        - image: winking324/knative-samples
           ports:
             - containerPort: 8080
           env:

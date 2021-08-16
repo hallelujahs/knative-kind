@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: event-display
-          image: gcr.io/knative-releases/knative.dev/eventing-contrib/cmd/event_display
+          image: winking324/event_display
 
 ---
 
