@@ -20,6 +20,8 @@ If you only need the install without the sample apps then use `curl -sL install.
 >- Kind version 0.11.1
 >- Kubernetes version 1.21.1
 
+## 国内安装
+由于国内没办法访问需要的 `gcr.io` 镜像仓库，所以通过将相关镜像复制到 `hub.docker.com` 镜像仓库中，来实现 KonK 的部署。
 
 ## Install Docker Desktop
 To use kind, you will also need to [install docker](https://docs.docker.com/install/).
